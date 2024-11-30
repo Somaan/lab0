@@ -1,12 +1,13 @@
-import BookList from "./BookList";
+import BookList from "./books/BookList";
+import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <>
-    <h1>Advanced Web Development</h1>
+    <Navbar />
     <BookList />
     </>
   );
 };
 
-export default App
+export default App;
